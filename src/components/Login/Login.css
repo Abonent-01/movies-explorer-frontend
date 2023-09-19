@@ -1,0 +1,11 @@
+.login {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+@media (max-width: 450px) {
+  .login {
+    padding: 56px 30px 30px
+  }
+}

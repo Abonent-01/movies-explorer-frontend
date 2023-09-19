@@ -1,0 +1,54 @@
+.nav__main {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__main-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: #fff;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  transition: 0.5s;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.nav__main-reg {
+  color: #fff;
+}
+
+.nav__main-signin {
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background-color: #3DDC84;
+}
+
+@media (max-width: 600px) {
+  .nav__main-links {
+    gap: 14px;
+  }
+
+  .nav__link {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .nav__main-signin {
+    color: #000;
+    padding: 5px 12px;
+    border-radius: 3px;
+    background-color: #3DDC84;
+  }
+}

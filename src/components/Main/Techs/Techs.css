@@ -1,0 +1,146 @@
+.tech {
+  padding: 100px 70px;
+  background: #272727;
+}
+
+.tech__title {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.88px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #DADADA;
+}
+
+.tech__subtitle {
+  margin: 0;
+  padding: 90px 0 26px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -2px;
+}
+
+.tech__text {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  max-width: 460px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}
+
+.tech__list {
+  max-width: 690px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.tech__item {
+  min-width: 90px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  border-radius: 10px;
+  background: #303030;
+}
+
+@media (max-width: 770px) {
+  .tech {
+    padding: 92px 50px;
+  }
+
+  .tech__subtitle {
+    padding: 82px 0 19px;
+  }
+
+  .tech__text {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.48px;
+    padding-bottom: 85px;
+  }
+
+  .tech__list {
+    flex-wrap: wrap;
+  }
+
+  .tech__item {
+    min-width: 84px;
+    min-height: 57px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tech {
+    padding: 70px 14px;
+  }
+
+  .tech__title {
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
+
+  .tech__subtitle {
+    font-size: 30px;
+    letter-spacing: -1.2px;
+  }
+
+  .tech__text {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -0.44px;
+  }
+
+  .tech__item {
+    width: 84px;
+    height: 57px;
+    font-size: 12px;
+    letter-spacing: -0.48px;
+  }
+
+  .tech__list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .tech {
+    padding: 80px 18px;
+  }
+
+  .tech__title {
+    padding-bottom: 28px;
+  }
+
+  .tech__subtitle {
+    padding: 49px 0 12px;
+  }
+
+  .tech__list {
+    max-width: 178px;
+    justify-content: flex-start;
+  }
+
+  .tech__text {
+    padding-bottom: 50px;
+  }
+}

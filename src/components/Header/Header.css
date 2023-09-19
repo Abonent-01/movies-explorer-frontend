@@ -1,0 +1,22 @@
+.header {
+  align-items: center;
+  padding: 18px 70px;
+  position: relative;
+  background-color: #073042;
+}
+
+.header_black {
+  background-color: #202020;
+}
+
+@media (max-width: 770px) {
+  .header {
+    padding: 18px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 18px 14px;
+  }
+}
