@@ -1,5 +1,5 @@
 //export const BASE_URL="http://localhost:3000"
-export const BASE_URL="https://api.neserver.nomoredomainsicu.ru"
+export const BASE_URL="https://api.server.students.nomoreparties.co"
 export const SERVER_URL="https://api.nomoreparties.co"
 export const BASE_URL_MOVIES="https://api.nomoreparties.co/beatfilm-movies"
 

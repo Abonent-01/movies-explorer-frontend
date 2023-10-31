@@ -9,32 +9,14 @@
 
 ## Страница проекта
 
-https://neserver.nomoredomainsrocks.ru
+https://server.nomoreparties.co
 
 
-## Технологии
+## Пулл реквест
 
-Проект реализован на React, структура проекта создана с помощью [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/Abonent-01/movies-explorer-frontend/pull/2
 
 
-## Запуск проекта
+## Figma
 
-1. Клонировать репозиторий
-
-    `git clone https://github.com/Abonent-01/movies-explorer-frontend.git`
-
-2. Установить зависимости
-
-    `npm install`
-
-3. Для запуска использовать команды
-
-    `npm start`
-
-    Запуск приложения в режиме разработки.
-    Для просмотра результатов в браузере откройте http://localhost:3000
-    После внесения изменений страница перезагрузится автоматически
-
-    `npm run build`
-
-    Создает оптимизированную версию приложения, готовую для развертывания, в папке `build`
+https://www.figma.com/file/6FMWkB94wE7KTkcCgUXtnC/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82?type=design&node-id=1-9662&mode=design&t=o22GfTM01Hu61g7G-0
