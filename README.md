@@ -9,7 +9,7 @@
 
 ## Страница проекта
 
-https://neserver.nomoredomainsrocks.ru
+https://server.nomoreparties.co
 
 
 ## Технологии
