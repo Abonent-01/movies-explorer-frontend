@@ -1,0 +1,72 @@
+.label {
+    width: 100%;
+    height: 63px;
+    background: transparent;
+    color: var(--color-gray);
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    /*margin-bottom: .37rem;*/
+    margin-bottom: 5.92px;
+}
+
+.label input {
+    background: transparent;
+    color: var(--color-text-light);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: none;
+    outline: none;
+    /*padding: .31rem 0 .63rem;*/
+    padding: 4.96px 0 10.08px;
+    border-bottom: 1px solid var(--color-line);
+}
+
+.label input:focus {
+    /*padding-left: .5rem;*/
+    padding-left: 8px;
+    /*padding: 1rem .5rem;*/
+    border-bottom: 1px solid var(--color-line);
+    box-shadow: 0 1px 0 0 var(--color-green);
+    /*margin-top: 1rem;*/
+    transition: padding .15s ease,box-shadow .3s ease,border-radius .3s ease;
+}
+
+.label span {
+    background: transparent;
+    /*margin-top: .37rem;*/
+    margin-top: 5.92px;
+
+    color: var(--color-red);
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 320px) {
+    .label {
+        width: 100%;
+        height: 63px;
+
+        /*margin-bottom: .31rem;*/
+        margin-bottom: 4.96px;
+    }
+
+    .label input {
+        /*padding-bottom: .5rem;*/
+        padding-bottom: 8px;
+    }
+}

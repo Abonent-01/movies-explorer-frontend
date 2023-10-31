@@ -1,0 +1,29 @@
+@import "./vendor/fonts.css";
+
+:root {
+    --font-family: 'Inter', 'Arial', sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
+
+
+    --color-bg: #073042;
+    --color-dark: #272727;
+    --color-button-dark: #2F2F2F;
+    --color-footer: #202020;
+    --color-text-light: #fff;
+    --color-text-dark: #000;
+    --color-checkbox-dark: #343434;
+    --color-checkbox-gray: #A0A0A0;
+    --color-gray: #8B8B8B;
+    --color-green: #3DDC84;
+    --color-line: #424242;
+    --color-dark-fields: #303030;
+    --color-red: #EE3465;
+    --color-blue: #4285F4;
+    --color-bg-movies: #222;
+
+    --opacity-btn: .8;
+    --opacity-link: .7;
+
+    --transition-on-hover: all .5s ease;
+}

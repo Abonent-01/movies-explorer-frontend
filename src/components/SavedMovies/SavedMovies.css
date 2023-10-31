@@ -1,0 +1,5 @@
+.saved-movies {
+    color: var(--color-text-light);
+    background: var(--color-footer);
+    font-family: var(--font-family);
+}

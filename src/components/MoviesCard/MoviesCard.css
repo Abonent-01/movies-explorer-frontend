@@ -1,0 +1,117 @@
+.movies-card {
+    font-family: var(--font-family);
+    color: var(--color-text-light);
+    background: var(--color-bg-movies);
+
+    border-radius: 6px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    max-width: 360px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17.92px 18.08px;
+}
+
+.card__title {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+
+    max-width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card__duration {
+    color: var(--color-gray);
+    text-align: right;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.card__img {
+    width: 360px;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.button {
+    margin: 17.92px 129.92px;
+    color: var(--color-text-light);
+    padding: 8.94px 15.04px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    border-radius: 30px;
+    transition: var(--transition-on-hover);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: var(--opacity-btn);
+}
+
+.button_type_text {
+    background: #313131;
+}
+
+.button_type_add {
+    background: var(--color-red);
+}
+
+.button_type_remove {
+    background: #313131;
+}
+
+
+@media screen and (max-width: 375px) {
+    .movies-card {
+        max-width: 300px;
+    }
+
+    .card__wraper {
+        padding: 17.60px 15px 17.60px 15px;
+    }
+
+    .card__title {
+        max-width: 200px;
+
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .card__duration {
+        font-size: 10px;
+    }
+
+    .card__title {
+        max-width: 200px;
+    }
+
+    .card__img {
+        width: 300px;
+        height: 168px;
+    }
+
+    .button {
+        margin: 11.20px 100.16px;
+        padding: 9.28px 3.20px;
+    }
+}

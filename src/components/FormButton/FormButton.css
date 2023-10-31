@@ -1,0 +1,55 @@
+.form-btn {
+    /*margin: 4.3rem 0 1rem;*/
+    margin: 68.80px 0 16px;
+    /*padding: 0.81rem 2rem 0.94rem;*/
+    padding: 12.96px 32px 15.04px;
+    width: 396px;
+    color: var(--color-text-light);
+    border-radius: 3px;
+    background: var(--color-blue);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: var(--transition-on-hover);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.form-btn:hover {
+    opacity: var(--opacity-btn);
+}
+
+.form-btn:disabled {
+    background-color: var(--color-text-light);
+    color: var(--color-checkbox-gray);
+    cursor: not-allowed;
+    opacity: var(--opacity-btn);
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 460px) {
+    .form-btn {
+        /*width: 260px;*/
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form-btn {
+        /*margin: 9.7rem 0 .9rem;*/
+        margin: 155.20px 0 14px;
+        /*padding-top: .94rem;*/
+        padding-top: 15px;
+        /*padding-bottom: .94rem;*/
+        padding-bottom: 15px;
+        width: 260px;
+
+        font-size: 12px;
+    }
+}

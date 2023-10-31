@@ -1,0 +1,40 @@
+.movies-not-found {
+    background: transparent;
+    color: var(--color-text-light);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    min-height: 400px;
+}
+
+.wraper_title {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+
+
+
+@media screen and (max-width: 515px){
+    .wraper {
+        min-height: 100%;
+    }
+
+    .wraper_title {
+        font-size: 20px;
+    }
+
+}

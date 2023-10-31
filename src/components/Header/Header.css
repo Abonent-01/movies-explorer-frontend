@@ -1,0 +1,36 @@
+.header {
+    align-items: center;
+    padding: 18px 70px;
+    position: relative;
+    background-color: #073042;
+}
+
+.header_black {
+    background-color: #202020;
+}
+
+.header__logo {
+    transition: var(--transition-on-hover);
+}
+
+.header__logo:hover {
+    opacity: var(--opacity-btn);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 770px) {
+    .header {
+      padding: 18px 30px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      padding: 18px 14px;
+    }
+  }
